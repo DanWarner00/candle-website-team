@@ -10,6 +10,5 @@ description: Write website page copy based on a sitemap, client brief, and conte
    - Visual-first: headlines under 8 words, 1-3 sentences per section max, more image placeholders than text, direct CTAs ("Get a Free Estimate" not "Contact Us to Learn More")
    - Information-first: detailed sections allowed, FAQ format where appropriate
 5. Match brand tone from the brief. Write for the target customer. No filler phrases ("Welcome to our website", "We are a leading provider").
-6. Write `{project_dir}/content/summary.md`: pages planned, messaging themes, top 3 competitor insights, notes for style director (including content profile recommendation for layout density).
-7. Write `{project_dir}/content/status.json`: agent, state, deliverables, timestamp.
-8. Announce completion.
+6. Write `{project_dir}/content/summary.md`: pages planned, messaging themes, top 3 competitor insights, notes for style director (including content profile recommendation for layout density), photo/asset gap report (list every [IMAGE] placeholder across all copy files, whether a matching file exists in `{project_dir}/brand-assets/`, and which images are still needed).
+7. Announce completion.

@@ -9,6 +9,5 @@ description: Create section-by-section layout specifications and animation/inter
 4. Write global components section: navigation (style, sticky behavior, mobile menu), footer (layout, content, background), buttons (primary/secondary styles, states), cards (if used), section transitions.
 5. Write animation specs: page load animations, scroll-triggered animations (Intersection Observer, no libraries), hover effects, micro-interactions. All must respect `prefers-reduced-motion`.
 6. Write everything to `{project_dir}/design/layout-specs.md`.
-7. Write `{project_dir}/design/summary.md`: brand overview, color rationale, font rationale, developer notes, Google Fonts URLs, recommended libraries (or "none — CSS only").
-8. Write `{project_dir}/design/status.json`.
-9. Announce completion.
+7. Write `{project_dir}/design/summary.md`: brand overview, color rationale, font rationale, developer notes, Google Fonts URLs, recommended libraries (or "none — CSS only"), Mobile & Responsive Notes (mobile nav pattern — hamburger or alternative; breakpoint behavior for each major layout type; touch target sizing requirements; any layout changes per breakpoint that differ from desktop).
+8. Announce completion.
